@@ -1,0 +1,47 @@
+.carousel-item img {
+  height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  transition: transform 0.5s ease;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.02);
+}
+
+.carousel-caption {
+  bottom: 20px;
+  padding: 15px 20px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.carousel-caption h5 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+html[data-bs-theme="light"] .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+html[data-bs-theme="dark"] .carousel-caption {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #eee;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+html[data-bs-theme="dark"] .carousel-caption h5,
+html[data-bs-theme="dark"] .carousel-caption p {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
