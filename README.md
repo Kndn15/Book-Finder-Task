@@ -28,12 +28,11 @@ Built as a Take-Home Challenge to demonstrate API integration, React development
 ## 📂 Setup Instructions
 
 1. Clone repository:
-
-
-
+https://github.com/Kndn15/Book-Finder-Task
 
 2. Install dependencies:
 npm install 
+
 3. Start dev server:
 npm run dev
 
@@ -52,13 +51,15 @@ Example: `https://openlibrary.org/search.json?title=harry+potter`
 
 ## 🖼 Screenshots / Demo
 
-(Add screenshots or a GIF demo here.)
-
+![Header](Header.png)
+![BookGrid](BookGrid.png)
+![GenreFilters](Genre.png)
+![Books](Books.png)
 ---
 
 ## 🌍 Deployment
 
-Deployed to ().  
+Deployed to (https://codesandbox.io/p/github/Kndn15/Book-Finder-Task/main?import=true).  
 Supports hosting on CodeSandbox, Vercel, Netlify, or StackBlitz.
 
 ---
